@@ -1,0 +1,44 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Environment and config files
+.env
+*.env
+apikey.txt
+
+# Output and generated files
+trailers/
+outputs/
+*.json
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System and editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Media files (optional, if generating trailers)
+*.mp4
+*.wav
+*.mp3
+*.avi
+
+# Dependency manager lock files (optional)
+poetry.lock
+Pipfile.lock
